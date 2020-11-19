@@ -1,13 +1,57 @@
-head {
-  font-family: "Crimson", cursive;
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+
+body {
+  font-family: "Crimson Text", serif;
+  margin: 0;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+header {
   padding: 30px;
   background-color: #5dbb93;
   text-align: center;
 }
 
-header {
-  font-family: "Crimson", cursive;
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.HeaderLinks {
+  text-decoration: none;
+  color: #e4002e;
+}
+
+#Historia {
   padding: 30px;
-  background-color: #5dbb93;
+  background-color: #eec489;
   text-align: center;
+}
+
+.HistoriaLink {
+  text-decoration: none;
+  color: #00d435;
+}
+
+#Hälsa {
+  padding: 30px;
+  background-color: #eeb085;
+  text-align: center;
+}
+
+.HälsaLink {
+  text-decoration: none;
+  color: #b83100;
+}
+
+#Recept {
+  padding: 30px;
+  background-color: #c26a4a;
+  text-align: center;
+}
+
+.ReceptLink {
+  text-decoration: none;
+  color: #e7c500;
 }
