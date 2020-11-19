@@ -55,3 +55,9 @@ ul {
   text-decoration: none;
   color: #e7c500;
 }
+
+footer {
+  padding: 30px;
+  background-color: #eb5857;
+  text-align: center;
+}
